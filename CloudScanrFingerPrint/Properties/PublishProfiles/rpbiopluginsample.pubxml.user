@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\inetpub\wwwroot\cloudscanrfpsample</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Authenticate.aspx">
+      <publishTime>07/19/2017 16:12:14</publishTime>
+    </File>
+    <File Include="bin/CloudScanrBioPluginSampleApp.dll">
+      <publishTime>07/18/2017 21:58:27</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>06/16/2017 22:19:18</publishTime>
+    </File>
+    <File Include="bin/RpBioPluginWebApp.dll">
+      <publishTime>12/01/2016 15:07:20</publishTime>
+    </File>
+    <File Include="bin/RpBioPluginWebApp.pdb">
+      <publishTime>12/01/2016 15:07:20</publishTime>
+    </File>
+    <File Include="bin/RpBioPluginWebApp.XmlSerializers.dll">
+      <publishTime>11/25/2016 12:47:50</publishTime>
+    </File>
+    <File Include="bin/StandAloneCloudScanrSampleWebApp.dll">
+      <publishTime>01/01/2018 19:46:01</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>05/07/2013 13:09:16</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>05/07/2013 13:09:16</publishTime>
+    </File>
+    <File Include="CloudScanrCapture.aspx">
+      <publishTime>01/01/2018 18:57:51</publishTime>
+    </File>
+    <File Include="CloudScanrHome.aspx">
+      <publishTime>09/28/2017 16:57:45</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>07/18/2017 21:18:09</publishTime>
+    </File>
+    <File Include="Enrollment.aspx">
+      <publishTime>06/19/2017 13:35:08</publishTime>
+    </File>
+    <File Include="frmBioMetricCapture.aspx">
+      <publishTime>07/18/2017 21:39:57</publishTime>
+    </File>
+    <File Include="frmChangeID.aspx">
+      <publishTime>06/19/2017 11:24:22</publishTime>
+    </File>
+    <File Include="frmDeleteID.aspx">
+      <publishTime>06/19/2017 12:49:16</publishTime>
+    </File>
+    <File Include="frmIsRegister.aspx">
+      <publishTime>06/19/2017 12:49:20</publishTime>
+    </File>
+    <File Include="frmProcessResult.aspx">
+      <publishTime>07/18/2017 21:56:29</publishTime>
+    </File>
+    <File Include="frmUpdate.aspx">
+      <publishTime>06/19/2017 12:49:41</publishTime>
+    </File>
+    <File Include="Identification.aspx">
+      <publishTime>06/19/2017 17:31:31</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>06/16/2017 22:19:19</publishTime>
+    </File>
+    <File Include="ProcessResult.aspx">
+      <publishTime>07/19/2017 16:29:48</publishTime>
+    </File>
+    <File Include="ResetAccessPointIDCustomerrKey.aspx">
+      <publishTime>09/28/2017 16:58:13</publishTime>
+    </File>
+    <File Include="Service References/BioPluginv8WebService/RpBioPluginWebApp.BioPluginv8WebService.ChangeIDResponse.datasource">
+      <publishTime>11/03/2016 19:19:59</publishTime>
+    </File>
+    <File Include="Service References/BioPluginv8WebService/RpBioPluginWebApp.BioPluginv8WebService.DeleteIDResponse.datasource">
+      <publishTime>11/03/2016 19:19:59</publishTime>
+    </File>
+    <File Include="Service References/BioPluginv8WebService/RpBioPluginWebApp.BioPluginv8WebService.GetInfoResponse.datasource">
+      <publishTime>11/03/2016 19:19:58</publishTime>
+    </File>
+    <File Include="Service References/BioPluginv8WebService/RpBioPluginWebApp.BioPluginv8WebService.IdentifyResponse.datasource">
+      <publishTime>11/03/2016 19:19:58</publishTime>
+    </File>
+    <File Include="Service References/BioPluginv8WebService/RpBioPluginWebApp.BioPluginv8WebService.IsRegisteredResponse.datasource">
+      <publishTime>11/03/2016 19:19:59</publishTime>
+    </File>
+    <File Include="Service References/BioPluginv8WebService/RpBioPluginWebApp.BioPluginv8WebService.RegisterResponse.datasource">
+      <publishTime>11/03/2016 19:19:58</publishTime>
+    </File>
+    <File Include="Service References/BioPluginv8WebService/RpBioPluginWebApp.BioPluginv8WebService.UpdateResponse.datasource">
+      <publishTime>11/03/2016 19:19:59</publishTime>
+    </File>
+    <File Include="Service References/BioPluginv8WebService/RpBioPluginWebApp.BioPluginv8WebService.VerifyResponse.datasource">
+      <publishTime>11/03/2016 19:19:58</publishTime>
+    </File>
+    <File Include="Service References/BioPluginv8WebService/RpBioPluginWebApp.BioPluginv8WebService.VerifyTemplateResponse.datasource">
+      <publishTime>11/03/2016 19:19:58</publishTime>
+    </File>
+    <File Include="Service References/BioPluginwrapper/RpBioPluginWebApp.BioPluginwrapper.ChangeIDResponse.datasource">
+      <publishTime>12/01/2016 11:54:09</publishTime>
+    </File>
+    <File Include="Service References/BioPluginwrapper/RpBioPluginWebApp.BioPluginwrapper.DeleteIDResponse.datasource">
+      <publishTime>12/01/2016 11:54:09</publishTime>
+    </File>
+    <File Include="Service References/BioPluginwrapper/RpBioPluginWebApp.BioPluginwrapper.GetInfoResponse.datasource">
+      <publishTime>12/01/2016 11:54:09</publishTime>
+    </File>
+    <File Include="Service References/BioPluginwrapper/RpBioPluginWebApp.BioPluginwrapper.IdentifyQuickResponse.datasource">
+      <publishTime>12/01/2016 11:54:09</publishTime>
+    </File>
+    <File Include="Service References/BioPluginwrapper/RpBioPluginWebApp.BioPluginwrapper.IdentifyResponse.datasource">
+      <publishTime>12/01/2016 11:54:09</publishTime>
+    </File>
+    <File Include="Service References/BioPluginwrapper/RpBioPluginWebApp.BioPluginwrapper.IsRegisteredResponse.datasource">
+      <publishTime>12/01/2016 11:54:09</publishTime>
+    </File>
+    <File Include="Service References/BioPluginwrapper/RpBioPluginWebApp.BioPluginwrapper.RefreshCacheResponse.datasource">
+      <publishTime>12/01/2016 11:54:09</publishTime>
+    </File>
+    <File Include="Service References/BioPluginwrapper/RpBioPluginWebApp.BioPluginwrapper.RegisterExResponse.datasource">
+      <publishTime>12/01/2016 11:54:09</publishTime>
+    </File>
+    <File Include="Service References/BioPluginwrapper/RpBioPluginWebApp.BioPluginwrapper.RegisterResponse.datasource">
+      <publishTime>12/01/2016 11:54:09</publishTime>
+    </File>
+    <File Include="Service References/BioPluginwrapper/RpBioPluginWebApp.BioPluginwrapper.RegisterSingleResponse.datasource">
+      <publishTime>12/01/2016 11:54:09</publishTime>
+    </File>
+    <File Include="Service References/BioPluginwrapper/RpBioPluginWebApp.BioPluginwrapper.UpdateExResponse.datasource">
+      <publishTime>12/01/2016 11:54:09</publishTime>
+    </File>
+    <File Include="Service References/BioPluginwrapper/RpBioPluginWebApp.BioPluginwrapper.UpdateResponse.datasource">
+      <publishTime>12/01/2016 11:54:09</publishTime>
+    </File>
+    <File Include="Service References/BioPluginwrapper/RpBioPluginWebApp.BioPluginwrapper.UpdateSingleResponse.datasource">
+      <publishTime>12/01/2016 11:54:09</publishTime>
+    </File>
+    <File Include="Service References/BioPluginwrapper/RpBioPluginWebApp.BioPluginwrapper.VerifyResponse.datasource">
+      <publishTime>12/01/2016 11:54:10</publishTime>
+    </File>
+    <File Include="Service References/BioPluginwrapper/RpBioPluginWebApp.BioPluginwrapper.VerifySingleResponse.datasource">
+      <publishTime>12/01/2016 11:54:10</publishTime>
+    </File>
+    <File Include="Service References/RPRemoteWebService/RpBioPluginWebApp.RPRemoteWebService.ArrayOfAnyType.datasource">
+      <publishTime>12/01/2016 15:07:14</publishTime>
+    </File>
+    <File Include="Service References/RPRemoteWebService/RpBioPluginWebApp.RPRemoteWebService.ArrayOfString.datasource">
+      <publishTime>12/01/2016 15:07:14</publishTime>
+    </File>
+    <File Include="Service References/RPRemoteWebService/RpBioPluginWebApp.RPRemoteWebService.GetClientStatusResponse.datasource">
+      <publishTime>12/01/2016 15:07:14</publishTime>
+    </File>
+    <File Include="Service References/RPRemoteWebService/RpBioPluginWebApp.RPRemoteWebService.GetTemplateAndPictureFromClientResponse.datasource">
+      <publishTime>12/01/2016 15:07:14</publishTime>
+    </File>
+    <File Include="Service References/RPRemoteWebService/RpBioPluginWebApp.RPRemoteWebService.InitializeCallResponse.datasource">
+      <publishTime>12/01/2016 15:07:14</publishTime>
+    </File>
+    <File Include="Service References/RPRemoteWebService/RpBioPluginWebApp.RPRemoteWebService.IsClientActiveResponse.datasource">
+      <publishTime>12/01/2016 15:07:14</publishTime>
+    </File>
+    <File Include="Service References/RPRemoteWebService/RpBioPluginWebApp.RPRemoteWebService.ReleaseActiveClientResponse.datasource">
+      <publishTime>12/01/2016 15:07:14</publishTime>
+    </File>
+    <File Include="Service References/RPRemoteWebService/RpBioPluginWebApp.RPRemoteWebService.SendErrorResponse.datasource">
+      <publishTime>12/01/2016 15:07:14</publishTime>
+    </File>
+    <File Include="Service References/RPRemoteWebService/RpBioPluginWebApp.RPRemoteWebService.UploadTemplateAndPictureToServerResponse.datasource">
+      <publishTime>12/01/2016 15:07:14</publishTime>
+    </File>
+    <File Include="Verification.aspx">
+      <publishTime>06/19/2017 12:50:05</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>01/01/2018 18:59:51</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
