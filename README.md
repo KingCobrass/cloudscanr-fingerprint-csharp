@@ -1,10 +1,11 @@
 # cloudscanr-fingerprint-CSharp
 This is the  ASP.NET (C#) Web application where I have used CloudScanr API to capture FingerPrint by the supported devices. Capture ISO/ICS/M2ICS formatted template based on given API parameter. I also, implement how to capture face image during fingerprint capture.
 
-#Authenticate CloudScanr API
+# Authenticate CloudScanr API
 string appKey = "APP_KEY";  //Collect valid AppKey from M2SYS
 string appSecret = "APP_SECRET"; //Collect from M2SYS
 string requestPath = "https://cloudscanr.cloudabis.com/fpapiv1/cstoken";
+
       -----------------------------------------------Call Authenticate api to get access_token----------------------------------------------------------
 
         /// <summary>
@@ -14,7 +15,7 @@ string requestPath = "https://cloudscanr.cloudabis.com/fpapiv1/cstoken";
         /// <param name="appKey"></param>
         /// <param name="appSecret"></param>
         /// <returns></returns>
-        private async Task<CloudScanrModels.CSTokenModel> SendPostTokenRequest(string requestPath, string appKey, string appSecret)
+        private async Task<CSTokenModel> SendPostTokenRequest(string requestPath, string appKey, string appSecret)
         {
             try
             {
@@ -32,7 +33,7 @@ string requestPath = "https://cloudscanr.cloudabis.com/fpapiv1/cstoken";
                     string url = _apiURL + "cstoken";
                     var response =
                         client.PostAsync(url, content).Result;
-                    return JsonConvert.DeserializeObject<CloudScanrModels.CSTokenModel>(response.Content.ReadAsStringAsync().Result);
+                    return JsonConvert.DeserializeObject<CSTokenModel>(response.Content.ReadAsStringAsync().Result);
                 }
 
             }
@@ -58,7 +59,7 @@ string requestPath = "https://cloudscanr.cloudabis.com/fpapiv1/cstoken";
 		 dataToSend.AccessPointID = accessPointID;
 		string reguestPath = "https://cloudscanr.cloudabis.com/fpapiv1/api/CloudScanr/Capture";
 		
-		private async Task<CloudScanrCaptureResult> SendCapturePostRequest(string requestPath, CloudScanrCapture dataToSend, string accessToken)
+	private async Task<CloudScanrCaptureResult> SendCapturePostRequest(string requestPath, CloudScanrCapture dataToSend, string accessToken)
         {
             try
             {
