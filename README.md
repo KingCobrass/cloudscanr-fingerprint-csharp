@@ -46,7 +46,7 @@ string requestPath = "https://cloudscanr.cloudabis.com/fpapiv1/cstoken";
 		
 		***You will be get access_token to use CloudScanr capture API if given credentials is valid
 		
-		----------------------------------------CloudScanr CaptureAPI--------------------------------------------
+# CloudScanr Capture API
 		To get API documentation, please visit https://cloudscanr.cloudabis.com/fpapiv1/Help/Api/POST-api-CloudScanr-Capture
 		
 		Use "api/CloudScanr/Capture" to capture finger print
@@ -82,9 +82,8 @@ string requestPath = "https://cloudscanr.cloudabis.com/fpapiv1/cstoken";
         }	
 		
 		***If given credentials (CustomerKey,Access Token, AccessPointID) is valid then you will be get CloudScanrCaptureResult object.
-		
-		All possible response code message
-		 /// <summary>
+# All Posible response code
+        /// <summary>
         /// CS003: Required parameter is empty or null
         /// </summary>
         public const string CS003 = "CS003";
